@@ -1,8 +1,8 @@
-import { Header } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/widgets/header/ui/Header'
-import { ProductCard } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/widgets/product-card/ui/ProductCard'
-import { BottomNav } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/widgets/bottom-nav/ui/BottomNav'
-import { PageContainer } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/shared/ui/containers/PageContainer'
-import { useProductsStore } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/shared/lib/stores/useProductsStore'
+import { Header } from '@widgets/header/ui/Header'
+import { ProductCard } from '@widgets/product-card/ui/ProductCard'
+import { BottomNav } from '@widgets/bottom-nav/ui/BottomNav'
+import { PageContainer } from '@shared/ui/containers/PageContainer'
+import { useProductsStore } from '@shared/lib/stores/useProductsStore'
 
 export const MainPage = () => {
   const { getFilteredProducts } = useProductsStore()

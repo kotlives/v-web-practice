@@ -1,4 +1,4 @@
-import { useProductsStore } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/shared/lib/stores/useProductsStore'
+import { useProductsStore } from '@shared/lib/stores/useProductsStore'
 
 export const SearchProducts = () => {
   const { searchQuery, setSearchQuery } = useProductsStore()

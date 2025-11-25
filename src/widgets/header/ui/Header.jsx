@@ -1,4 +1,4 @@
-import { SearchProducts } from 'C:/Users/kotli/Универ/Веб/Практики/Практика 2/app/src/features/search-products/ui/SearchProducts'
+import { SearchProducts } from '@features/search-products/ui/SearchProducts'
 
 export const Header = () => {
   return (

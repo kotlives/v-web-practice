@@ -1,4 +1,4 @@
-import { useProductsStore } from '../../../shared/lib/stores/useProductsStore'
+import { useProductsStore } from '@shared/lib/stores/useProductsStore'
 
 export const BottomNav = () => {
   const { activeNav, setActiveNav } = useProductsStore()

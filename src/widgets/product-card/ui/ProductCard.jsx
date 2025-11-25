@@ -1,4 +1,4 @@
-import { AddToCartButton } from '../../../features/toggle-cart/ui/AddToCartButton'
+import { AddToCartButton } from '@features/toggle-cart/ui/AddToCartButton'
 
 export const ProductCard = ({ product }) => {
   return (
